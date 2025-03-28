@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="root">
+
+       <!-- <h1> Hello from HTML !  </h1> -->
+
+    </div>
+</body>
+    <!-- // const message = document.createElement('h1');
+    // message.innerHTML = "Hello from Javascript"
+    
+    // const root = document.getElementById('root');
+
+    // root.appendChild(message); -->
+
+
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+
+
+    <!--  Create React App  -->
+      <script  type="module" src="/src/main.jsx">
+        const message = React.createElement('h1' , {} , 'Hello from React ')     // createElement(type , props , children)
+
+        const root = ReactDOM.createRoot(document.getElementById('root'))
+
+        root.render(message);
+      </script>
+</html>
