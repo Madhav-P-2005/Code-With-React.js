@@ -1,4 +1,5 @@
 // Functional Component 
+
 // Props :- To make your Component to go  dynamic .
 
 function Hello(props){
@@ -29,6 +30,3 @@ function Hello(props){
 
 
 export default Hello
-
-
- 
