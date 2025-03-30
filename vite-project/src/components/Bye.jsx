@@ -9,7 +9,7 @@ function Bye({id , phoneno , age}){
 
         <h1 >
           {" "}
-          Hello this is a DeStructured Component Bye  {id} {phoneno} {age}{" "}
+          Hello this is a DeStructured way of using JavaScript . And a Component of Bye  {id} {phoneno} {age}{" "}
         </h1>
       </>
     );
