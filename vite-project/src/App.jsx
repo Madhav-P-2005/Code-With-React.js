@@ -113,7 +113,7 @@ function App() {
 
 
       <div>
-        <h1> Handling Multiple Input Elements In React using useState() Hook </h1>
+        <h1> Handling Multiple Input Elements and Submission of a Form  </h1>
         <Form2/>
       </div>
     </>
