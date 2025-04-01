@@ -12,6 +12,20 @@ import Animals from "./components/Rendering-Array-Elements";
 import Fruits from "./components/Rendering-An-Array-Of-Objects";
 
 
+import Message from "./components/Handle-An-Event-In-React";
+
+
+import Counter from "./components/State-Example-Counter";
+
+
+import Counter2 from "./components/Handle-Multiple-Events-In-React";
+
+
+import Form from "./components/Handle-Input-Element-In-React";
+
+
+import Form2 from "./components/Handle-Multiple-Input-Elements";
+
 
 function App() {
 
@@ -65,6 +79,42 @@ function App() {
       <div>
         <h1> Rendering An Array of Objects   </h1>
         <Fruits/>
+      </div>
+
+
+
+      <div>
+        <h1> Rendering An Array of Objects   </h1>
+        <Message/>
+      </div>
+
+
+      <div>
+        <h1> State Example and Use of useState() Hook    </h1>
+        <Counter/>
+      </div>
+
+
+      <hr />
+
+      <div>
+        <h1> Handling Multiple  Events  In React using useState() Hook </h1>
+        <Counter2/>
+      </div>
+
+
+
+      <hr />
+
+      <div>
+        <h1> Handling Input Element In React using useState() Hook </h1>
+        <Form/>
+      </div>
+
+
+      <div>
+        <h1> Handling Multiple Input Elements In React using useState() Hook </h1>
+        <Form2/>
       </div>
     </>
   );
