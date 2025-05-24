@@ -1,6 +1,12 @@
 // Functional Component 
 
-// Props :- To make your Component to go  dynamic .
+/*
+
+Props :- 1)  To make your Component to go  dynamic .
+
+2)  Inside the components you can pass the variables/data. 
+
+*/
 
 function Hello(props){
   // Properties of JSX

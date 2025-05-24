@@ -1,0 +1,21 @@
+*{
+    padding:0px;
+    margin:0px;
+}
+
+
+nav , ul{
+    display: flex;
+    gap:34px;
+}
+
+li{
+    list-style-type: none;
+}
+
+nav{
+    background-color: aquamarine;
+    height: 6vh;
+    align-items: center;
+    padding:10px;
+}

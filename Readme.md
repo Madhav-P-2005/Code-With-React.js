@@ -1,4 +1,4 @@
-# Code-With-React 🚀  
+# Code-With-React.js Using Vite  - A Complete Guide 🚀  
 
 ## 📌 About This Repository  
 
@@ -12,11 +12,21 @@ I am following multiple high-quality resources to build a strong foundation in R
 - **[Complete React Course in Hindi](https://www.youtube.com/playlist?list=PLu71SKxNbfoDb9tL1-6gjAuS8T37m5IRF)**  
 - **Instructor:** Haris Ali Khan  
 
-#### 2️⃣ **Mrinal Bhattacharya's React + Vite Course** (Certification Course)  
+#### 2️⃣ **Mrinal Bhattacharya's React.js ** (Certification Course)  
 - Covers React.js using **Vite** for optimized development.
 - Includes hands-on projects and certification upon completion.
 
-### 🔥 What I’m Learning:
+# Why React.js ? 
+
+- React uses a virtual DOM to efficiently update the UI which is better than updating content using DOM Manipulation .
+
+- Debugging and maintainance is easy .
+
+- We can split our app into multiple components and resuse those components .
+
+
+### 🔥 What I’m Learning :-
+
 ✅ Basics of React.js and JSX syntax  
 ✅ Creating and managing React components  
 ✅ State management and lifecycle methods  
