@@ -14,7 +14,7 @@ import React, { useEffect, useState, useRef } from "react";
 const App4Sigma = () => {
   const [count, setCount] = useState(0);
 
-  //  Case 1 :-  Persisting a variable across renders 
+  //  Case 1 :-  Persisting a variable across renders  a = a + 1 its again going to 1 then 2 then again 1 so  useRef
   // const a = useRef(0); // Uncomment to track render count without re-rendering
 
   // Case 2 :-  Accessing a DOM element (button) 
@@ -24,8 +24,8 @@ const App4Sigma = () => {
 
     //  Case 1 :-  Track render count 
 
-    // a.current += 1;
-    // console.log(`Render count (using useRef): ${a.current}`);
+    // a.current+=1;
+    // console.log(`Render count (using useRef) :-  ${a.current}`);
 
 
     //  Case 2 :-  Modify button DOM after first render 
@@ -34,14 +34,24 @@ const App4Sigma = () => {
     if (buttonRef.current) {
       buttonRef.current.style.backgroundColor = "red";
     }
-  }, []);
+  });
 
   return (
+    //  Case 1 :-  Persisting a variable across renders  a = a + 1 its again going to 1 then 2 then again 1 so  useRef
+    // <div>
+    //   <h1>Counter: {count}</h1>
+    //   <button onClick={() => setCount(count + 1)}>Click Me</button>
+    // </div>
+
+
+    //  Case 1 :-  Persisting a variable across renders  a = a + 1 its again going to 1 then 2 then again 1 so  useRef
     <div>
       <h1>Counter: {count}</h1>
-      <button ref={buttonRef} onClick={() => setCount(count + 1)}>
-        Click Me
-      </button>
+      <button ref={buttonRef} onClick={() => setCount(count + 1)}>Click Me</button>
+      {/* Display None the inital Button .  */}
+      <br>
+      </br><br></br>
+      <button onClick={() => buttonRef.current.style.display = "none"}> Change Me ! </button>
     </div>
   );
 };
