@@ -44,7 +44,7 @@ const App4Sigma = () => {
     // </div>
 
 
-    //  Case 1 :-  Persisting a variable across renders  a = a + 1 its again going to 1 then 2 then again 1 so  useRef
+    //  Case 2 :-  Persisting a variable across renders  a = a + 1 its again going to 1 then 2 then again 1 so  useRef
     <div>
       <h1>Counter: {count}</h1>
       <button ref={buttonRef} onClick={() => setCount(count + 1)}>Click Me</button>
