@@ -15,7 +15,7 @@ function Form2() {
     <div>
     <h1> {name.firstName} = {name.lastName} </h1>
         <form>
-          <input onChange={(e) => setName({firstName : e.target.value,lastName: ''})} type="text"  value = {name.firstName} />
+          <input onChange={(e) => setName({firstName : e.target.value,lastName: ""})} type="text"  value = {name.firstName} />
 
           <input onChange={(e) => setName({firstName : " ", lastName : e.target.value})} type="text"  value = {name.lastName} />
 
