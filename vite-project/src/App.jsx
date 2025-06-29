@@ -54,7 +54,7 @@ function App() {
         <h1> Arrays :- </h1>
         <Arrays
           name="Rob"
-          message="Hi There"
+          message="Hi There" 
           emoji="🙏"
           seatNumber={seatNumbers}
         />
@@ -84,7 +84,7 @@ function App() {
 
 
       <div>
-        <h1> Rendering An Array of Objects   </h1>
+        <h1> Rendering An Array of Objects and Handling Events in React </h1>
         <Message/>
       </div>
 
