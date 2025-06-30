@@ -4,16 +4,24 @@ import "./Navbar.css"
 
 const Navbar = () => {
   return (
-    <div>
+    <>
+      <div>
         <nav>
-            <ul>
-                <li> Home</li>
-                <li> About </li>
-                <li> Contact </li>
-            </ul>
+          <ul>
+            <a href="/">
+              <li>Home</li>
+            </a>
+            <a href="/">
+              <li>About</li>
+            </a>
+            <a href="/">
+              <li>Contact Us </li>
+            </a>
+          </ul>
         </nav>
-    </div>
-  )
+      </div>
+    </>
+  );
 }
 
 export default Navbar
