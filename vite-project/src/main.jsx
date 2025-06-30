@@ -6,7 +6,8 @@ import "bootstrap/dist/js/bootstrap.bundle.min.js";
 // import App4Sigma from './App4Sigma.jsx'
 // import App from './App.jsx'
 // import App2Sigma from './App2Sigma.jsx'
-import RouterApp from "./RouterApp.jsx";
+// import RouterApp from "./RouterApp.jsx";
+import App_useContext from "./App_useContext.jsx";
 // import AppExercise from "./AppExercise";
 
 createRoot(document.getElementById("root")).render(
@@ -16,6 +17,7 @@ createRoot(document.getElementById("root")).render(
     {/* <App3Sigma/> */}
     {/* <App4Sigma/> */}
     {/* <AppExercise /> */}
-    <RouterApp/>
+    {/* <RouterApp/> */}
+    <App_useContext/>
   </StrictMode>
 );
