@@ -53,7 +53,7 @@ useEffect(() => {
   }
 }, [third])
 
-const App3Sigma = () => {
+const App_useEffect = () => {
   // State to track button click count
   const [count, setCount] = useState(0);
 
@@ -85,4 +85,4 @@ const App3Sigma = () => {
   );
 };
 
-export default App3Sigma;
+export default App_useEffect;

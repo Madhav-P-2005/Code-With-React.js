@@ -11,7 +11,7 @@ import React, { useEffect, useState, useRef } from "react";
 
 */
 
-const App4Sigma = () => {
+const App_useRef = () => {
   const [count, setCount] = useState(0);
 
   //  Case 1 :-  Persisting a variable across renders  a = a + 1 its again going to 1 then 2 then again 1 so  useRef
@@ -56,4 +56,4 @@ const App4Sigma = () => {
   );
 };
 
-export default App4Sigma;
+export default App_useRef;
