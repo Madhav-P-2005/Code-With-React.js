@@ -1,8 +1,8 @@
 import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
 // import "bootstrap/dist/css/bootstrap.min.css";
-import "bootstrap/dist/js/bootstrap.bundle.min.js";
-import App_Form from "./App_Form";
+// import "bootstrap/dist/js/bootstrap.bundle.min.js";
+// import App_Form from "./App_Form";
 // import App_useMemo from "./App_useMemo";
 // import App_useCallback from "./App_useCallback";
 // import App3Sigma from './App3Sigma.jsx'
@@ -12,6 +12,12 @@ import App_Form from "./App_Form";
 // import RouterApp from "./RouterApp.jsx";
 // import App_useContext from "./App_useContext.jsx";
 // import AppExercise from "./AppExercise";
+
+
+// Redux tool kit 
+import {store} from './redux/store.js'
+import {Provider} from 'react-redux'
+import App_redux from "./App_redux.jsx";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
@@ -24,6 +30,9 @@ createRoot(document.getElementById("root")).render(
     {/* <App_useContext/> */}
     {/* <App_useMemo/> */}
     {/* <App_useCallback/> */}
-    <App_Form/>
+    {/* <App_Form/> */}
+    <Provider store={store}>
+      <App_redux />
+    </Provider>
   </StrictMode>
 );
