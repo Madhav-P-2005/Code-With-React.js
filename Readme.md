@@ -11,7 +11,7 @@ This repository acts as a **knowledge base**, designed to help both myself and o
 
 ### 🎥 YouTube Playlists
 
-1️⃣ **[React.js Tutorials by CodeWithHarry](https://www.youtube.com/playlist?list=PLu71SKxNbfoDb9tL1-6gjAuS8T37m5IRF)**  
+1️⃣ **[React.js - Sigma Web Dev Tutorial](https://www.youtube.com/watch?v=nhSZ4LhIii8&list=PLu0W_9lII9agq5TrH9XLIKQvv0iaF2X3w&index=105)**  
 - Language: Hindi  
 - Instructor: Haris Ali Khan (CodeWithHarry)  
 
