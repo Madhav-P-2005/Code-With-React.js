@@ -25,7 +25,8 @@ const Form = () => {
     <div>
       <form >
 
-        <input onChange={handleChange} type="text" value={text}/>        <input onChange = {(e) =>setText2(e.target.value)} type="text" value={text2}/>
+        <input onChange={handleChange} type="text" value={text}/>        
+        <input onChange = {(e) =>setText2(e.target.value)} type="text" value={text2}/>
 
         <h1> {text2} </h1>
       </form>

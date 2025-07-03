@@ -44,7 +44,7 @@ function App() {
     <>
       <Hello name="Madhav P" phoneno="9437475384" />
 
-      <Hello name="Steve" />
+      {/* <Hello name="Steve" /> */}
 
       {/* The Way to destructure JavaScript */}
       <Bye id="1" phoneno="34534534534" age="34" />
@@ -54,7 +54,7 @@ function App() {
         <h1> Arrays :- </h1>
         <Arrays
           name="Rob"
-          message="Hi There"
+          message="Hi There" 
           emoji="🙏"
           seatNumber={seatNumbers}
         />
@@ -84,7 +84,7 @@ function App() {
 
 
       <div>
-        <h1> Rendering An Array of Objects   </h1>
+        <h1> Rendering An Array of Objects and Handling Events in React </h1>
         <Message/>
       </div>
 

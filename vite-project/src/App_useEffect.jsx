@@ -11,9 +11,49 @@ import Navbar_useEffect from './components2-Sigma/Navbar_useEffect.jsx';
 
   - Executes code after the component renders.
 
+  useEffect Snippet :- 
+
+    useEffect(() => {
+    // 1. Effect Logic (what to do after render)
+
+     return () => {
+     // 2. Cleanup Logic :- (what to do before unmount or before next  effect run) . This runs :-  1) Before the component unmounts  2) Before the effect re-runs (if dependencies change)
+     };
+    },[dependencies]); //  3. Dependency Array (when to re-run the effect)
+
+
+    2) Clean Up Example :- 
+
+    useEffect(() => {
+    const timer = setInterval(() => console.log("Running..."), 1000);
+
+    return () => {
+       clearInterval(timer);
+       console.log("Cleanup before unmount or next effect");
+    };
+    }, []);
+
+
+
+    3) third (Dependency Array)  :-   1) A list of variables/state/props the effect depends on.   2) If empty ([]) → Runs only once after initial mount.  3) If includes variables → Runs when any of them change.
+
+    [],                     // Run only once
+    [count],                // Run when count changes
+    [userId, themeColor],   // Run when userId or themeColor changes
+
+
+
 */
 
-const App3Sigma = () => {
+useEffect(() => {
+  first
+
+  return () => {
+    second
+  }
+}, [third])
+
+const App_useEffect = () => {
   // State to track button click count
   const [count, setCount] = useState(0);
 
@@ -45,4 +85,4 @@ const App3Sigma = () => {
   );
 };
 
-export default App3Sigma;
+export default App_useEffect;
