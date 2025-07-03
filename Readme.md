@@ -15,7 +15,7 @@ This repository acts as a **knowledge base**, designed to help both myself and o
 - Language: Hindi  
 - Instructor: Haris Ali Khan (CodeWithHarry)  
 
-2️⃣ **React Certification Course by Mrinal Bhattacharya**  
+2️⃣ **React Certification Course by Mrinal Bhattacharya  (Scaler - Topics)**  
 - Focus on **Vite**-based project structure  
 - Includes projects + certification  
 
